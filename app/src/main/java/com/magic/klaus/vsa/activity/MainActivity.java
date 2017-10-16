@@ -1,4 +1,4 @@
-package com.magic.klaus.vsa;
+package com.magic.klaus.vsa.activity;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -9,16 +9,15 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.magic.klaus.vsa.R;
 import com.magic.klaus.vsa.presenter.PreprocessPresenter;
 
-import org.opencv.android.CameraBridgeViewBase;
 import org.opencv.android.OpenCVLoader;
 
 public class MainActivity extends AppCompatActivity {
 
     private static String TAG = "OpenCVLoader";
     private ImageView show_image;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,9 +72,4 @@ public class MainActivity extends AppCompatActivity {
             Log.i(TAG, "OpenCV initialize failed");
         }
     }
-
-    /**
-     * A native method that is implemented by the 'native-lib' native library,
-     * which is packaged with this application.
-     */
 }

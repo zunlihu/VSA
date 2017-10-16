@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">VSA</string>
+    <string name="process_pic">处理图片</string>
+    <string name="recovery_pic">恢复图片</string>
 </resources>
