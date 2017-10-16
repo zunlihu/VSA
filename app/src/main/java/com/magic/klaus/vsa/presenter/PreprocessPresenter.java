@@ -1,10 +1,9 @@
 package com.magic.klaus.vsa.presenter;
 
 /**
- * 创建者: chengfeng
- * 创建时间： 2017-10-15 下午11:40
- * 任务号：
- * 描述：
+ * creater: klaus
+ * create time： 2017-10-15 下午11:40
+ * describe： a test for Opencv and jni. Delete or refactor it if needed.
  */
 
 public class PreprocessPresenter {
