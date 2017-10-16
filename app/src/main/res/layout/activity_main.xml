@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.magic.klaus.vsa.MainActivity">
-
-
+    tools:context="com.magic.klaus.vsa.activity.MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -33,13 +31,13 @@
                 android:id="@+id/pic"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="恢复图片"
+                android:text="@string/recovery_pic"
                 android:layout_weight="1"/>
             <Button
                 android:id="@+id/gray_pic"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="处理图片"
+                android:text="@string/process_pic"
                 android:layout_weight="1"/>
 
         </LinearLayout>

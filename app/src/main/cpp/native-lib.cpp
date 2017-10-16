@@ -10,8 +10,6 @@ Java_com_magic_klaus_vsa_presenter_PreprocessPresenter_getGrayImage(JNIEnv *env,
                                                                     jint h) {
     jint *pixels = env->GetIntArrayElements(pixels_, NULL);
 
-    // TODO
-
     if (pixels == NULL) {
         return NULL;
     }
